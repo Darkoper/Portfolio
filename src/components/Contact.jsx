@@ -121,14 +121,16 @@ const Contact = () => {
             >
               {loading ? "Sending..." : "Send"}
             </button>
-            <a href="" target="blank">
-            <button
-                // type='submit'
-                className='bg-tertiary py-4 px-6  rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-              >
-                <a href="https://docs.google.com/document/d/185kZzNbkUZMRRH32YUQKwYI7lhQX6_JRiihVoSD7R4w/edit?usp=sharing" target="blank">Resume</a>
+            <a href="https://docs.google.com/document/d/185kZzNbkUZMRRH32YUQKwYI7lhQX6_JRiihVoSD7R4w/edit?usp=sharing" target="blank">
+            
                 
-              </button>
+                <button className='bg-tertiary py-4 px-6  rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary' >
+                  Resume
+                </button>
+                
+                
+                
+              
             </a>
             
           </div> 
