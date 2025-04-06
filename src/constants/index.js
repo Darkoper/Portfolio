@@ -80,10 +80,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
+    {
+      name: "Redux Toolkit",
+      icon: redux,
+    },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -92,14 +92,14 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "MongoDB",
+      icon: mongodb,
     },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "git",
       icon: git,
@@ -129,7 +129,7 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       company_name: "DataFlair",
       icon: tesla,
       iconBg: "#E6DEDD",
@@ -156,8 +156,8 @@ import {
     },
     {
       title: "Full stack Developer",
-      company_name: "ZERO",
-      icon: meta,
+      company_name: "SAAARP LABS (JNU)",
+      icon: "https://imgs.search.brave.com/OcnOR4n-yCDszg4uBrSmvDYmL3RPSQSM2jUgzwqZ-fQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL0ovam51LWph/d2FoYXJsYWwtbmVo/cnUtdW5pdmVyc2l0/eS1sb2dvLUNCMUI4/QzFGMjQtc2Vla2xv/Z28uY29tLnBuZw",
       iconBg: "#E6DEDD",
       date: "July 2024 - Present",
       points: [
@@ -200,7 +200,7 @@ import {
     {
       name: "Car Rent",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform for showcasing the products of Saaarp Labs, a production-level startup working on cutting-edge blockchain projects.",
       tags: [
         {
           name: "react",
@@ -216,10 +216,10 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://saaarp-tan.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "PlayPerks.com",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -237,7 +237,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://perks-play.netlify.app/",
     },
     {
       name: "Trip Guide",
@@ -258,7 +258,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://car-rental-project-plum.vercel.app/",
     },
   ];
   

@@ -114,46 +114,28 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-          <div className="flex  gap-60 ">
-            <button
-              type='submit'
-              className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-            >
-              {loading ? "Sending..." : "Send"}
-            </button>
-            <a href="https://docs.google.com/document/d/185kZzNbkUZMRRH32YUQKwYI7lhQX6_JRiihVoSD7R4w/edit?usp=sharing" target="blank">
-            
-                
-                <button className='bg-tertiary py-4 px-6  rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary' >
-                  Resume
-                </button>
-                
-                
-                
-              
-            </a>
-            
-          </div> 
-          
-          <div className="flex space gap-5">
-            <a href="https://github.com/Darkoper/CodSoft" target="blank">
-              <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-                <img src={github} alt=""  
-                  className='w-0.3 h-0.3 object-contain'
-                />
+          <div className="flex flex-wrap gap-4 sm:gap-6 md:gap-10">
+  <button
+    type='submit'
+    className='bg-tertiary py-3 px-8 rounded-xl outline-none w-full sm:w-fit text-white font-bold shadow-md shadow-primary'
+  >
+    {loading ? "Sending..." : "Send"}
+  </button>
+  
+      <a  
+        href="https://docs.google.com/document/d/17EAbslm-mc1QN4kt6pJVQJo25fXwUJ5t/edit?usp=sharing&ouid=114077129551073673054&rtpof=true&sd=true"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-full sm:w-auto text-center"
+      >
+        <button
+          className="bg-tertiary py-3 px-4 sm:py-3 sm:px-6 md:py-4 md:px-8 rounded-xl outline-none text-sm sm:text-base md:text-lg text-white font-bold shadow-md shadow-primary w-full sm:w-fit"
+        >
+          Resume
+        </button>
+      </a>
+    </div>
 
-              </div>
-            </a>
-            
-            <a href="https://www.linkedin.com/in/piyush-mishra-481300213/" target="blank">
-              <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-                <img src="https://imgs.search.brave.com/CPdapVeUOKCVO9iUiXKj2Ac7hylu5A-rvJvcZZ0Wk5o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9icmFu/ZGxvZ29zLm5ldC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8w/Ni9saW5rZWRpbi1s/b2dvLTUxMng1MTIu/cG5n" alt=""  
-                  className='w-0.3 h-0.3 object-contain'
-                />
-
-              </div>
-            </a>
-          </div>
           
           
           
